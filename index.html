@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Engaging Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">My Blog</a>
+            </div>
+            <button id="hamburger-btn" class="hamburger-btn" aria-label="Toggle Navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="archive.html">Archive</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Diving Deep into Digital Realms</h1>
+                <p>Exploring the intersection of technology, creativity, and human experience.</p>
+                <a href="#featured-posts" class="cta-button">Explore Featured Posts</a>
+            </div>
+            <div class="hero-image">
+                 <img src="https://images.pexels.com/photos/1771383/pexels-photo-1771383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Laptop and Coffee" loading="lazy">
+            </div>
+        </section>
+
+        <section id="featured-posts" class="featured-posts">
+            <h2>Featured Posts</h2>
+            <div class="post-grid">
+                <article class="post-card">
+                    <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Person Coding on Laptop" loading="lazy">
+                    <h3><a href="post1.html">The Future of Web Interactivity</a></h3>
+                    <p class="post-excerpt">A look at the evolving landscape of web development and user engagement.</p>
+                    <div class="post-meta">
+                        <span class="post-date"><i class="fas fa-calendar-alt"></i> November 15, 2023</span>
+                        <span class="post-author"><i class="fas fa-user"></i> John Doe</span>
+                    </div>
+                    <a href="post1.html" class="read-more-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="post-card">
+                    <img src="https://images.pexels.com/photos/1183992/pexels-photo-1183992.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Coffee and Book" loading="lazy">
+                    <h3><a href="post2.html">Finding Balance in a Digital World</a></h3>
+                    <p class="post-excerpt">Exploring the importance of mindfulness and well-being in our tech-driven lives.</p>
+                    <div class="post-meta">
+                        <span class="post-date"><i class="fas fa-calendar-alt"></i> November 10, 2023</span>
+                        <span class="post-author"><i class="fas fa-user"></i> Jane Smith</span>
+                    </div>
+                    <a href="post2.html" class="read-more-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="post-card">
+                    <img src="https://images.pexels.com/photos/20967/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800" alt="Nature Photography" loading="lazy">
+                    <h3><a href="post3.html">The Art of Digital Storytelling</a></h3>
+                    <p class="post-excerpt">How technology is reshaping the way we create and consume narratives.</p>
+                    <div class="post-meta">
+                        <span class="post-date"><i class="fas fa-calendar-alt"></i> November 5, 2023</span>
+                        <span class="post-author"><i class="fas fa-user"></i> David Lee</span>
+                    </div>
+                    <a href="post3.html" class="read-more-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay up-to-date with the latest insights and trends in the digital world.</p>
+            <form id="newsletter-form" class="newsletter-form">
+                <input type="email" id="email-input" placeholder="Enter your email address" required>
+                <button type="submit" class="subscribe-button">Subscribe <i class="fas fa-envelope"></i></button>
+            </form>
+            <div id="newsletter-message" class="newsletter-message"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We are a community of passionate individuals exploring the digital frontier.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@example.com</p>
+                <p>Phone: +254 700 000 000</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                    <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 My Engaging Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
